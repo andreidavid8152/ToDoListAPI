@@ -20,11 +20,7 @@ const swaggerOptions = {
         info: {
             title: 'API de Tareas',
             version: '1.0.0',
-            description: 'API para gestionar tareas',
-            contact: {
-                name: 'Tu Nombre',
-                email: 'tuemail@example.com',
-            },
+            description: 'API para gestionar tareas'
         },
         servers: [
             {
