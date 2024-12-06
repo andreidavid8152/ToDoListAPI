@@ -32,9 +32,6 @@ const controladorTarea = require('../controllers/controladorTarea');
  *       example:
  *         titulo: "Comprar pan"
  *         descripcion: "Ir a la panadería y comprar pan fresco"
- *         estado: "pendiente"
- *         fechaCreacion: "2021-10-01T12:00:00Z"
- *         id: "6166c4f5b3e3d3e8c5b7d2f1"
  */
 
 /**
