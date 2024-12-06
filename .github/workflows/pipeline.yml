@@ -38,6 +38,9 @@ jobs:
         with:
           name: app-source-install
 
+      - name: Install dependencies in test stage
+        run: npm install
+        
       - name: Run tests
         run: npm run test --if-present
 
