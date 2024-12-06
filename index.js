@@ -10,7 +10,7 @@ const swaggerUi = require('swagger-ui-express');
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 // Middleware para parsear JSON
 app.use(express.json());
