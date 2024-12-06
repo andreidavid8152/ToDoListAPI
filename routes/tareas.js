@@ -1,5 +1,3 @@
-// routes/tareas.js
-
 const express = require('express');
 const router = express.Router();
 const controladorTarea = require('../controllers/controladorTarea');

@@ -1,5 +1,3 @@
-// index.js
-
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
@@ -30,7 +28,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: `http://localhost:${PORT}`,
+                url: 'https://to-do-list-api-b4a3g6cwhaf8arbh.canadacentral-01.azurewebsites.net/',
             },
         ],
     },
