@@ -9,7 +9,7 @@ let app;
 let mongoServer;
 
 beforeAll(async () => {
-    // Inicia MongoDB en memorias
+    // Inicia MongoDB en memoria
     mongoServer = await MongoMemoryServer.create();
     const uri = mongoServer.getUri();
 
