@@ -24,7 +24,7 @@ beforeAll(async () => {
 });
 
 afterAll(async () => {
-    // Limpia la BD y cierra conexione
+    // Limpia la BD y cierra conexiones
     await mongoose.connection.dropDatabase();
     await mongoose.connection.close();
     await mongoServer.stop();
